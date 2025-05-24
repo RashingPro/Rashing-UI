@@ -13,7 +13,6 @@
     "url": "https://rashing.pro/",
     "email": "contact@rashing.pro"
   },
-  "type": "commonjs",
   "devDependencies": {
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
@@ -30,5 +29,9 @@
     "format": "prettier --write \"/src/**/*.ts\" \"/src/**/.tsx\"",
     "lint": "eslint src",
     "build": "tsc"
-  }
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts"
 }
