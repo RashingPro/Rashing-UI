@@ -1,0 +1,6 @@
+/test
+/src/
+/node_modules/
+tsconfig.json
+.npmrc
+/.idea
